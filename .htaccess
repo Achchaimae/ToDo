@@ -10,3 +10,4 @@ RewriteRule ^index\.php$ - [NC,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.php [L]
+RewriteBase /laravel-site/laravel-5-app/public/
